@@ -5,33 +5,34 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="50dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:padding="50dp"
+    tools:context=".MainActivity"
+    android:background="@color/black">
 
     <Spinner
         android:id="@+id/spinBeer"
-        android:entries="@array/type_beer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:layout_gravity="center"/>
+        android:entries="@array/type_beer" />
 
     <Button
         android:id="@+id/btnBeer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pushBtn"
         android:layout_gravity="center"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:text="@string/pushBtn" />
 
     <TextView
         android:id="@+id/tvBeer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/textPiva"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:textSize="36sp"/>
+        android:text="@string/textPiva"
+        android:textSize="36sp" />
 
 </LinearLayout>
